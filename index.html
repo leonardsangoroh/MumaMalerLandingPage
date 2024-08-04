@@ -26,6 +26,7 @@
         <header
             class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 
                     tw-px-[5%] max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around"
+            style="position: fixed; background-color: #7BBCCA;"
         >
             <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
                 <img
@@ -44,10 +45,10 @@
                             max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
                 >
                     <a class="header-links" href=""> <strong>About Muma Maler</strong> </a>
-                    <a class="header-links" href="#pricing"> <strong>Mission</strong> </a>
-                    <a class="header-links" href=""> <strong>Features</strong> </a>
-                    <a class="header-links" href=""> <strong>Donate</strong> </a>
-                    <a class="header-links" href=""> <strong>Contact</strong> </a>
+                    <a class="header-links" href="#mission"> <strong>Mission</strong> </a>
+                    <a class="header-links" href="#features"> <strong>Features</strong> </a>
+                    <a class="header-links" href="#donate"> <strong>Donate</strong> </a>
+                    <a class="header-links" href="#contact"> <strong>Contact</strong> </a>
                 </div>
                 <div
                     class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base 
@@ -158,6 +159,7 @@
 
         <section
             class="tw-relative tw-flex tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden tw-p-6"
+            id="features"
         >
             <div
                 class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center
@@ -306,7 +308,7 @@
         <section
             class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center 
                     tw-place-items-center tw-overflow-hidden tw-p-6"
-            id=""
+            id="mission"
         >
             <div
                 class="tw-mt-8 tw-flex tw-flex-col tw-place-items-center tw-gap-5"
@@ -443,6 +445,7 @@
         </section>
 
         <section
+            id="donate"
             class="tw-mt-5 tw-flex tw-w-full tw-flex-col tw-place-items-center tw-p-[2%]"
         >
             <h3 class="reveal-up tw-text-4xl tw-font-medium max-md:tw-text-2xl">
@@ -453,7 +456,7 @@
                 class="reveal-up tw-mt-10 tw-flex tw-flex-wrap tw-place-content-center tw-gap-10 max-lg:tw-flex-col"
             >
                 <a
-                    href=""
+                    href="#contact"
                     class="tw-flex tw-h-[400px] tw-w-[350px] tw-flex-col tw-gap-2 tw-overflow-clip 
                             tw-rounded-lg tw-bg-[#edecec79] tw-p-4 tw-shadow-xl max-lg:tw-w-[300px]"
                 >
@@ -481,7 +484,7 @@
                     </span>
                 </a>
                 <a
-                    href=""
+                    href="#contact"
                     class="tw-flex tw-h-[400px] tw-w-[350px] tw-flex-col tw-gap-2 tw-overflow-clip 
                             tw-rounded-lg tw-bg-[#edecec79] tw-p-4 tw-shadow-xl max-lg:tw-w-[300px]"
                 >
@@ -585,25 +588,25 @@
                 <h2 class="tw-text-3xl max-md:tw-text-xl">Bibles Translated</h2>
                 <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
                     <a href="" class="footer-link">Dholuo ✅</a>
-                    <a href="" class="footer-link">Taita (Coming Soon)</a>
-                    <a href="" class="footer-link">Ameru (Coming Soon)</a>
+                    <a href="#contact" class="footer-link">Taita (Coming Soon)</a>
+                    <a href="#contact" class="footer-link">Ameru (Coming Soon)</a>
                 </div>
 
-                <h2 class="tw-text-3xl max-md:tw-text-xl">Dev Contacts</h2>
+                <h2 id="contact" class="tw-text-3xl max-md:tw-text-xl">Dev Contacts</h2>
                 <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                    <a href="" class="footer-link">leonardsangoroh@gmail.com</a>
-                    <a href="" class="footer-link">GitHub: @leonardsangoroh</a>
-                    <a href="" class="footer-link">Instagram: iosdeveloper.swift</a>
+                    <a href="mailto:leonardsangoroh@gmail.com" class="footer-link">leonardsangoroh@gmail.com</a>
+                    <a href="https://github.com/leonardsangoroh" class="footer-link">GitHub: @leonardsangoroh</a>
+                    <a href="https://www.instagram.com/iosdeveloper.swift/?hl=en" class="footer-link">Instagram: iosdeveloper.swift</a>
                 </div>
             </div>
 
             <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
                 <h2 class="tw-text-3xl max-md:tw-text-xl">Useful Links</h2>
                 <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                    <a href="" class="footer-link">About us</a>
-                    <a href="" class="footer-link">Donate</a>
-                    <a href="" class="footer-link">Volunteer (translation skills)</a>
-                    <a href="" class="footer-link">Volunteer (technical skills)</a>
+                    <a href="#mission" class="footer-link">About us</a>
+                    <a href="#donate" class="footer-link">Donate</a>
+                    <a href="#donate" class="footer-link">Volunteer (translation skills)</a>
+                    <a href="#donate" class="footer-link">Volunteer (technical skills)</a>
                 </div>
             </div>
         </footer>
